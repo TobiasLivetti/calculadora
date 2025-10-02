@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle at top left, #a1c4fd, transparent 60%),
+                radial-gradient(circle at top right, #c2e9fb, transparent 60%),
+                radial-gradient(circle at bottom left, #89f7fe, transparent 60%),
+                radial-gradient(circle at bottom right, #a1c4fd, transparent 60%);
+    background-color: #101820; 
+    background-blend-mode: screen;
+  }
+  
+
+.cuerpo{
+    background-color: rgb(27, 27, 27);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.537);
+    border-radius: 17px;
+    width: 316px;
+    margin: auto;
+    margin-top: 70px;
+    padding: 7px;
+}
+
+.pantalla{
+    margin: 13px;
+    width: 290px;
+    height: 115px;
+    background-color: rgb(218, 248, 211);
+    border-radius: 10px;
+}
+
+#display1, #display2{
+    background-color: rgb(218, 248, 211);
+    margin-left: 15px ;
+    padding: 3px;
+    width: 255px;
+    height: 49px;
+    border: 0;
+    text-align: right;
+   
+
+}
+
+#display1{
+    margin-top: 3px ;
+    font-size: 30px;
+}
+#display2{
+    margin-bottom: 2px;
+    font-size: 50px;
+}
+
+
+
+button{
+    font-size: 20px;
+    height: 60px;
+    width: 60px;
+    margin: 8px;
+    border-radius: 9px;
+    
+}
+
+.unoymedio{
+    width: 100px;
+}
+
+#cero{
+    width: 139px;
+}
+
+.negro{
+    background-color: black;
+    color: white;
+}
+
+.gris{
+    background-color: grey;
+    color: black;
+}
+
+.verde{
+    background-color: green;
+    color: white;
+}
+
+.rojo{
+    background-color: red;
+    color: white;
+}

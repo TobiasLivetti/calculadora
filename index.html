@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="cuerpo">
+        <div class="pantalla">
+            <input type="text" id="display1" readonly>
+            <input type="text" id="display2" readonly>
+        </div>
+ 
+        <button class="unoymedio , verde" onclick="AC()" >AC</button>
+        <button class="unoymedio , rojo" onclick="menos()">←</button>
+        
+        <button class="gris" onclick="addToDisplay('/')">/</button>
+
+
+        <button class="negro" onclick="addToDisplay('7')">7</button>
+        <button class="negro" onclick="addToDisplay('8')">8</button>
+        <button class="negro" onclick="addToDisplay('9')">9</button>
+        <button class="gris" onclick="addToDisplay('*')">x</button>
+
+        <button class="negro" onclick="addToDisplay('4')">4</button>
+        <button class="negro" onclick="addToDisplay('5')">5</button>
+        <button class="negro" onclick="addToDisplay('6')">6</button>
+        <button class="gris" onclick="addToDisplay('-')">-</button>
+
+        <button class="negro" onclick="addToDisplay('1')">1</button>
+        <button class="negro" onclick="addToDisplay('2')">2</button>
+        <button class="negro" onclick="addToDisplay('3')">3</button>
+        <button class="gris" onclick="addToDisplay('+')">+</button>
+        
+
+        <button class="negro" id="cero" onclick="addToDisplay('0')">0</button>
+        <button class="negro" onclick="addToDisplay('.')">,</button>
+
+        <button class="gris" onclick="calcular()">=</button>
+
+   </div>
+    
+   <script src="script.js"></script>
+
+
+</body>
+</html>
